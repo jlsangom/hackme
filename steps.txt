@@ -1,0 +1,2 @@
+docker build -t hackme --name hackme_letgo ./docker
+docker run -p 192.168.99.100:2222:22 -p 192.168.99.100:6379:6379 -t hackme
